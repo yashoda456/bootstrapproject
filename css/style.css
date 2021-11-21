@@ -2,3 +2,18 @@
     background-color: darkslategray;
 }
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+    .custom-img{
+        height: 550px;
+    }
+    .card img{
+        height: 200px;
+        transition: transform .2s; /* Animation */
+    
+        margin: 0 auto;
+
+    }
+    .card img:hover {
+        transform: scale(1.2); /* (150% zoom)*/
+      }
+  
+    
